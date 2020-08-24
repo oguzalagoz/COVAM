@@ -3,8 +3,9 @@ THis folder includes all the executables and underlying data files used to gener
 1. The Excel files include all underleying data used to generate the figures therefore this folder can be used to reproduce graphs/results presented in the paper.
 2. The executable files and the batch programming files can be modified to run different scenarios for Dane County, Milwaukee, and New York City using COVAM.
 
-The folders include corresponding executable files. For example, the sensitivity analysis folders have executable files with the same as the base case however they are different executable files. The batch files include the commands required to execute the executable files. All exectuable files are named as "CovidABM.exe"
-The batch files require the fwolloing inputs:
+The folders include corresponding executable files. Although the name of the executables files in the folders for the sensitivity analysis folders are identical to the name of executable file for the the base case, they are different executable files that are tailored the corresponding sensitivity analysis. The batch files include the commands required to execute the executable files. All executable files are named as "CovidABM.exe"
+
+The batch files require the following inputs:
 
 set seed=2000 #sets the random number seed, default is 2000 but others could be used
 
