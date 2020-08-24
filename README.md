@@ -7,7 +7,9 @@ The folders include corresponding executable files. For example, the sensitivity
 The batch files require the fwolloing inputs:
 
 set seed=2000 #sets the random number seed, default is 2000 but others could be used
+
 set exefile=CovidABM.exe # name of the executable file
+
 set region=Dane_expected # three regions can be entered: Dane_expected, Milwaukee, and NYC
 set num_rep=100 #number of replications of COVAM, default is 100
 set sim_day=365 # number of days the simulation will be executed, default is 1 year, or 365 days
